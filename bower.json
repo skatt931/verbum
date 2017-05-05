@@ -1,0 +1,27 @@
+{
+  "name": "verbum",
+  "description": "forin language learn",
+  "main": "index.js",
+  "authors": [
+    "Ihor Kurnytskyi"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "adaptive"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs",
+    "test",
+    "tests"
+  ],
+    "dependencies": {
+    "normalize-css": "normalize.css#^5.0.0",
+    "jquery": "^2.2.4",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}
