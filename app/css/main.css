@@ -1,2 +1,40 @@
 body {
-  background-color: green; }
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  font-family: "RobotoRegular", sans-serif;
+  overflow-x: hidden;
+  background-color: #FCEB57;
+  color: #000; }
+
+.hidden {
+  display: none; }
+
+header {
+  padding: 20px; }
+  header .navigation {
+    background-color: #FCFCFC;
+    color: #000; }
+
+.main-content {
+  padding: 150px 0; }
+  .main-content .circle {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    top: -50%;
+    right: -40%;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 0; }
+  .main-content .text-content {
+    position: relative; }
+  .main-content .text {
+    font-size: 30px; }
+    .main-content .text span {
+      font-weight: bold; }
+  .main-content .author {
+    font-weight: 600; }
+    .main-content .author span {
+      font-weight: 100; }
