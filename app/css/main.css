@@ -1,9 +1,34 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Clean';
+  /* ָלÿ רנטפעא */
+  src: url(../fonts/ptserif/PTF55F.ttf);
+  /* ֿףעü ך פאיכף סמ רנטפעמל */ }
+
+@font-face {
+  font-family: 'Clean1';
+  /* ָלÿ רנטפעא */
+  src: url(../fonts/ptserif/PTF56F.ttf);
+  /* ֿףעü ך פאיכף סמ רנטפעמל */ }
+
+@font-face {
+  font-family: 'Clean2';
+  /* ָלÿ רנטפעא */
+  src: url(../fonts/ptserif/PTF75F.ttf);
+  /* ֿףעü ך פאיכף סמ רנטפעמל */ }
+
+@font-face {
+  font-family: 'Clean3';
+  /* ָלÿ רנטפעא */
+  src: url(../fonts/ptserif/PTF76F.ttf);
+  /* ֿףעü ך פאיכף סמ רנטפעמל */ }
+
 body {
   font-size: 16px;
   min-width: 320px;
   position: relative;
   line-height: 1.6;
-  font-family: "RobotoRegular", sans-serif;
+  font-family: 'Clean1';
   overflow-x: hidden;
   background-color: #FCEB57;
   color: #000; }
@@ -12,7 +37,8 @@ body {
   display: none; }
 
 header {
-  padding: 20px; }
+  padding: 20px;
+  font-family: sans-serif; }
   header .navigation {
     background-color: #FCFCFC;
     color: #000; }
@@ -33,8 +59,8 @@ header {
   .main-content .text {
     font-size: 30px; }
     .main-content .text span {
-      font-weight: bold; }
+      font-family: 'Clean3'; }
   .main-content .author {
-    font-weight: 600; }
+    font-family: 'Clean3'; }
     .main-content .author span {
-      font-weight: 100; }
+      font-family: 'Clean1'; }
