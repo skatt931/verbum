@@ -1,11 +1,11 @@
 [
   {
-   "forin" : "televizie",
+   "forin" : "televize",
    "mother" : "телевізор",
    "image" : "телевізор"
   },
   {
-    "forin" : "tushka",
+    "forin" : "tužka",
     "mother" : "олівець",
     "image" : "олівці"
   },{
@@ -13,28 +13,28 @@
     "mother" : "так",
     "image" : "так"
   },{
-    "forin" : "zluty",
+    "forin" : "žlutý",
     "mother" : "жовтий",
     "image" : "жовтий"
   },{
-    "forin" : "dobry",
+    "forin" : "dobrý",
     "mother" : "добрий",
     "image" : "добрий"
   },{
-    "forin" : "velky",
+    "forin" : "velký",
     "mother" : "великий",
     "image" : "великий"
   },{
-    "forin" : "hezky",
+    "forin" : "hezký",
     "mother" : "гарний",
     "image" : "гарний"
   },{
-    "forin" : "cerveny",
+    "forin" : "červený",
     "mother" : "червоний",
     "image" : "червоний"
   },{
-    "forin" : "osklyvy",
-    "mother" : "бридкий",
+    "forin" : "ošklyvý",
+    "mother" : "негарний",
     "image" : "бридкий"
   }
 ]
