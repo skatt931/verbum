@@ -45,7 +45,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                                aria-expanded="false">Mode <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="forin-mother.html">Forin -> Mother</a></li>
+                                <li><a href="#" class="forin-mother">Forin -> Mother</a></li>
                                 <!--<li role="separator" class="divider"></li>-->
                                 <li><a href="#">Mother -> forin</a></li>
                             </ul>
@@ -74,7 +74,7 @@
 
 <div class="main-content">
     <div class="container">
-        <div class="row">
+        <div class="row show-content">
             <div class="col-md-6">
                 <div class="circle"></div>
                 <div class="text-content">
@@ -84,7 +84,7 @@
                     </p>
                     <p class="author">Карл Маркс,  <span>філософ-матеріаліст</span></p>
                 </div>
-        </div>
+            </div>
         </div>
     </div>
 </div>
@@ -96,7 +96,36 @@
 
 <!--Bootstrap.js lib-->
 <script src="libs/bootstrap/dist/js/bootstrap.js"></script>
+<!--Underscore lib-->
+<script src="libs/underscore/underscore.js"></script>
 <!--Main JavaScript-->
 <script src="js/common.js"></script>
+
+<script class="Undertext">
+    <div class="col-md-6">
+        <div class="circle"></div>
+        <div class="text-content">
+
+            <p class="text">
+                Чужою мовою розмовляє у державі або гість, або найманець, або окупант, який нав'язує їй
+                <span>свою мову.</span>
+            </p>
+
+            <p class="author">Карл Маркс, <span>філософ-матеріаліст</span></p>
+        </div>
+    </div>
+</script>
+<script class="Undercard">
+    <div class="col-sm-6 col-md-4 col-md-push-4">
+        <div class="thumbnail">
+            <img class="card-image" src="img/нічого.jpg" alt="...">
+            <div class="caption input-group">
+                <h3 class="first-word" data-translation="" data-url>Forin word</h3>
+                <input type="text" class="form-control translation-word" placeholder="You'r translation">
+            </div>
+            <p><div href="" class="btn btn-primary check-btn" role="button">Перевірити</div> <div href="" class="btn btn-default help-btn" role="button">Підказка</div></p>
+        </div>
+    </div>
+</script>
 </body>
 </html>

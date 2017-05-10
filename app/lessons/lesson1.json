@@ -36,5 +36,85 @@
     "forin" : "ošklyvý",
     "mother" : "негарний",
     "image" : "бридкий"
+  },{
+    "forin" : "ditě",
+    "mother" : "дитина",
+    "image" : "дитина"
+  },{
+    "forin" : "dole",
+    "mother" : "внизу",
+    "image" : "внизу"
+  },{
+    "forin" : "hnědý",
+    "mother" : "коричневий",
+    "image" : "коричневий"
+  },{
+    "forin" : "mladý",
+    "mother" : "молодий",
+    "image" : "молодий"
+  },{
+    "forin" : "květina",
+    "mother" : "квітка",
+    "image" : "квітка"
+  },{
+    "forin" : "moderní",
+    "mother" : "сучасний",
+    "image" : "сучасний"
+  },{
+    "forin" : "modrý",
+    "mother" : "синій",
+    "image" : "синій"
+  },{
+    "forin" : "nahoře",
+    "mother" : "нагорі",
+    "image" : "нагорі"
+  },{
+    "forin" : "obraz",
+    "mother" : "картина",
+    "image" : "картина"
+  },{
+    "forin" : "pokoj",
+    "mother" : "кімната",
+    "image" : "кімната"
+  },{
+    "forin" : "pero",
+    "mother" : "ручка",
+    "image" : "ручка"
+  },{
+    "forin" : "postel",
+    "mother" : "ліжко",
+    "image" : "ліжко"
+  },{
+    "forin" : "sešit",
+    "mother" : "зошит",
+    "image" : "зошит"
+  },{
+    "forin" : "skřiň",
+    "mother" : "шафа",
+    "image" : "шафа"
+  },{
+    "forin" : "uprostřed",
+    "mother" : "посередині",
+    "image" : "посередині"
+  },{
+    "forin" : "vedle",
+    "mother" : "біля",
+    "image" : "біля"
+  },{
+    "forin" : "vepředu",
+    "mother" : "спереду",
+    "image" : "спереду"
+  },{
+    "forin" : "visí",
+    "mother" : "висить",
+    "image" : "висить"
+  },{
+    "forin" : "židle",
+    "mother" : "стілець",
+    "image" : "стілець"
+  },{
+    "forin" : "křeslo",
+    "mother" : "крісло",
+    "image" : "крісло"
   }
 ]
