@@ -1,12 +1,268 @@
-[
+﻿[
   {
-   "forin" : "televizie",
-   "mother" : "телевізор",
-   "image" : "?????????"
+   "forin" : "bohužel",
+   "mother" : "на жаль",
+   "image" : "на жаль"
   },
   {
-    "forin" : "tushka",
-    "mother" : "???????",
-    "image" : "??????"
+    "forin" : "byt",
+    "mother" : "квартира",
+    "image" : "квартира"
+  },  {
+   "forin" : "ćas",
+   "mother" : "час",
+   "image" : "час"
+  },
+  {
+    "forin" : "člověk",
+    "mother" : "людина",
+    "image" : "людина"
+  },  {
+   "forin" : "dcera",
+   "mother" : "дочка",
+   "image" : "дочка"
+  },
+  {
+    "forin" : "dělat",
+    "mother" : "робити",
+    "image" : "робити"
+  },  {
+   "forin" : "divadlo",
+   "mother" : "театр",
+   "image" : "театр"
+  },
+  {
+    "forin" : "dívat se na",
+    "mother" : "дивитись",
+    "image" : "дивитись"
+  },  {
+   "forin" : "divka",
+   "mother" : "дівчина",
+   "image" : "дівчина"
+  },
+  {
+    "forin" : "dneska, dnes",
+    "mother" : "сьогодні",
+    "image" : "сьогодні"
+  },  {
+   "forin" : "dopoledne",
+   "mother" : "до обіду",
+   "image" : "питання"
+  },
+  {
+    "forin" : "fakulta",
+    "mother" : "факультет",
+    "image" : "факультет"
+  },  {
+   "forin" : "gramatika",
+   "mother" : "граматика",
+   "image" : "граматика"
+  },
+  {
+    "forin" : "hodný",
+    "mother" : "добрий",
+    "image" : "добрий"
+  },  {
+   "forin" : "chytrý",
+   "mother" : "розумний",
+   "image" : "розумний"
+  },
+  {
+    "forin" : "jako",
+    "mother" : "як",
+    "image" : "як"
+  },  {
+   "forin" : "jeho",
+   "mother" : "його",
+   "image" : "його"
+  },
+  {
+    "forin" : "jen",
+    "mother" : "тільки",
+    "image" : "питання"
+  },  {
+   "forin" : "ještě",
+   "mother" : "ще",
+   "image" : "питання"
+  },
+  {
+    "forin" : "kamarád",
+    "mother" : "друг",
+    "image" : "друг"
+  },  {
+   "forin" : "kino",
+   "mother" : "кінотеатр",
+   "image" : "кінотеатр"
+  },
+  {
+    "forin" : "lekce",
+    "mother" : "урок",
+    "image" : "урок"
+  },  {
+   "forin" : "milý",
+   "mother" : "милий",
+   "image" : "милий"
+  },
+  {
+    "forin" : "mít",
+    "mother" : "мати",
+    "image" : "питання"
+  },  {
+   "forin" : "moře",
+   "mother" : "море",
+   "image" : "море"
+  },
+  {
+    "forin" : "nakupovat",
+    "mother" : "купувати",
+    "image" : "купувати"
+  },  {
+   "forin" : "nebo",
+   "mother" : "або",
+   "image" : "питання"
+  },
+  {
+    "forin" : "nemocnice",
+    "mother" : "лікарня",
+    "image" : "лікарня"
+  },  {
+   "forin" : "nemocný",
+   "mother" : "хворий",
+   "image" : "хворий"
+  },
+  {
+    "forin" : "obchod",
+    "mother" : "магазин",
+    "image" : "магазин"
+  },  {
+   "forin" : "odpočivat",
+   "mother" : "відпочивати",
+   "image" : "відпочивати"
+  },
+  {
+    "forin" : "odpoledne",
+    "mother" : "після обіду",
+    "image" : "питання"
+  },  {
+   "forin" : "poslouchat",
+   "mother" : "слухати",
+   "image" : "слухати"
+  },
+  {
+    "forin" : "potom, pak",
+    "mother" : "потім",
+    "image" : "потім"
+  },  {
+   "forin" : "práce",
+   "mother" : "робота",
+   "image" : "робота"
+  },
+  {
+    "forin" : "pracovat",
+    "mother" : "працювати",
+    "image" : "працювати"
+  },  {
+   "forin" : "prodavač",
+   "mother" : "продавець",
+   "image" : "продавець"
+  },
+  {
+    "forin" : "přítel",
+    "mother" : "приятель",
+    "image" : "друг2"
+  },  {
+   "forin" : "rád",
+   "mother" : "з радістю",
+   "image" : "з радістю"
+  },
+  {
+    "forin" : "rodina",
+    "mother" : "родина",
+    "image" : "родина"
+  },  {
+   "forin" : "sám",
+   "mother" : "сам",
+   "image" : "один"
+  },
+  {
+    "forin" : "studovat",
+    "mother" : "вчитися",
+    "image" : "вчитися"
+  },  {
+   "forin" : "špatně",
+   "mother" : "погано",
+   "image" : "погано"
+  },
+  {
+    "forin" : "špatný",
+    "mother" : "поганий",
+    "image" : "поганий"
+  },  {
+   "forin" : "šťastný",
+   "mother" : "щасливий",
+   "image" : "щасливий"
+  },
+  {
+    "forin" : "teď",
+    "mother" : "тепер",
+    "image" : "питання"
+  },  {
+   "forin" : "třida",
+   "mother" : "клас",
+   "image" : "клас"
+  },
+  {
+    "forin" : "úkol",
+    "mother" : "завдання",
+    "image" : "завдання"
+  },  {
+   "forin" : "ukrajinština",
+   "mother" : "українська мова",
+   "image" : "українська мова"
+  },
+  {
+    "forin" : "už",
+    "mother" : "вже",
+    "image" : "питання"
+  },  {
+   "forin" : "večer",
+   "mother" : "вечір",
+   "image" : "вечір"
+  },
+  {
+    "forin" : "volno",
+    "mother" : "вільний час",
+    "image" : "вільний час"
+  },  {
+   "forin" : "volný",
+   "mother" : "вільний",
+   "image" : "вільний час"
+  },
+  {
+    "forin" : "vysvětlovat",
+    "mother" : "з'ясувати",
+    "image" : "питання"
+  },  {
+   "forin" : "vzpomínat na",
+   "mother" : "згадувати",
+   "image" : "згадувати"
+  },
+  {
+    "forin" : "zajímavý",
+    "mother" : "цікавий",
+    "image" : "цікавий"
+  },  {
+   "forin" : "zdravý",
+   "mother" : "здоровий",
+   "image" : "здоровий"
+  },
+  {
+    "forin" : "zítra",
+    "mother" : "завтра",
+    "image" : "завтра"
+  },{
+    "forin" : "je mi to líto",
+    "mother" : "мені шкода",
+    "image" : "мені жаль"
   }
 ]

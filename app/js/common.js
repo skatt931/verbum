@@ -17,7 +17,7 @@ $(function() {
 			$cardImage.attr('src', $firstWord.attr('data-url'));
 			console.log($firstWord.attr('data-url'));
 		}
-		$.getJSON('lessons/lesson1.json', {scriptCharset: "utf-8"})
+		$.getJSON('lessons/lesson2.json', {scriptCharset: "utf-8"})
 			.done(function (data) {
 				let numbersArray = []; //array with numbers of words
 
