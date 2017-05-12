@@ -2,22 +2,25 @@ $(function() {
 	//variables for underscore template
 	let underText = $('.Undertext').html();
 	let underCard = $('.Undercard').html();
-	var textTemplate = _.template(underText);
-	var cardTemplate = _.template(underCard);
+	let textTemplate = _.template(underText);
+	let cardTemplate = _.template(underCard);
 
-    //function for pick datas from json files
+
+	//function for pick dates from json files
 	function pickDataFromServer(){
 		const $firstWord = $('.first-word');
 		const $cardImage = $('.card-image');
 		const $checkBtn = $('.check-btn');
 		const $helpBtn = $('.help-btn');
 		let $translation = $('.translation-word');
+        let progressNumber = 0;
+        let numberOfWords;
 
 		function showImage() {
 			$cardImage.attr('src', $firstWord.attr('data-url'));
 			console.log($firstWord.attr('data-url'));
 		}
-		$.getJSON('lessons/lesson2.json', {scriptCharset: "utf-8"})
+		$.getJSON(`lessons/lesson${lessonNumber}.json`, {scriptCharset: "utf-8"})
 			.done(function (data) {
 				let numbersArray = []; //array with numbers of words
 
@@ -25,25 +28,27 @@ $(function() {
 					numbersArray.push(index);
 				});
 
+                //Shake the array for random words
 				function compareRandom(a, b) {
 					return Math.random() - 0.5;
 				}
 				numbersArray.sort(compareRandom);
-				console.log(numbersArray);
 
 
 				let k = 0;
-				$firstWord.text(data[numbersArray[k]].forin);
-				$firstWord.attr('data-translation', data[numbersArray[k]].mother);
-				$firstWord.attr('data-url', `img/${data[numbersArray[k]].image}.jpg`);
-				//$cardImage.attr('src', $firstWord.data('url'));
+                function addInfoToCard() {
+                    $firstWord.text(data[numbersArray[k]].forin);
+                    $firstWord.attr('data-translation', data[numbersArray[k]].mother);
+                    $firstWord.attr('data-url', `img/lesson${lessonNumber}/${data[numbersArray[k]].image}.jpg`);
+                    console.log(k);
+                    console.log(numbersArray.length);
+                }
+                addInfoToCard();
 
-				function checkWord() {
+                function checkWord() {
 					if ($translation.val() == $firstWord.attr('data-translation')) {
 						k++;
-						$firstWord.text(data[numbersArray[k]].forin);
-						$firstWord.attr('data-translation', data[numbersArray[k]].mother);
-						$firstWord.attr('data-url', `img/${data[numbersArray[k]].image}.jpg`);
+                        addInfoToCard();
 						showImage();
 						$translation.val("");
 					}
@@ -56,9 +61,6 @@ $(function() {
 				});
 				$helpBtn.on('click', showImage);
 
-
-
-				console.log($firstWord.attr('data-url'));
 			})
 			.fail(function(){
 				console.log("fail");
@@ -66,10 +68,20 @@ $(function() {
 
 	}
 
+    //Choose the mode
 	$('.forin-mother').on('click',function(){
 		$('.show-content').html(cardTemplate());
 		pickDataFromServer();
 	});
+
+    //Choose the lesson
+    let lessonLink = $('.lessons').find('a');
+    let lessonNumber = 1;
+    lessonLink.on('click', function(){
+        lessonNumber = $(this).attr('data-number');
+        $('.show-content').html(cardTemplate());
+        pickDataFromServer();
+    });
 
 
 
