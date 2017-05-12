@@ -23,13 +23,26 @@ header {
   padding: 20px;
   font-family: sans-serif;
   .navigation {
+    padding: 20px;
     background-color: $navigation-color;
     color: $text-color;
+    box-shadow: 3px 5px 13px 0px rgba(0,0,0,0.3);
+    .container {
+      li{
+        a {
+          color: #080808;
+          font-family: 'CodePro';
+        }
+      }
+    }
+
   }
 }
 
 .main-content {
-  padding: 150px 0;
+  .text-block {
+    margin-top: 100px;
+  }
   .circle {
     position: absolute;
     width: 400px;
@@ -39,6 +52,25 @@ header {
     right: -40%;
     background-color: rgba(255, 255, 255, 0.7);
     z-index: 0;
+  }
+  .thumbnail {
+    display: block;
+    padding: 10px;
+    margin-bottom: 20px;
+    line-height: 3.428571;
+    background-color: rgba(255, 255, 255, 0.82);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+    .buttons-cards {
+      padding: 9px;
+      margin-top: 25px;
+    }
+  }
+  .card-image {
+    height: 250px;
   }
   .text-content {
     position: relative;
