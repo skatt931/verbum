@@ -32,6 +32,7 @@
 body {
   font-size: 16px;
   min-width: 320px;
+  height: 100%;
   position: relative;
   line-height: 1.6;
   font-family: 'Clean1';
@@ -97,3 +98,8 @@ header {
   font-family: 'Clean3'; }
   .main-content .author span {
     font-family: 'Clean1'; }
+
+footer {
+  margin-top: 20px; }
+  footer a {
+    margin-left: 10px; }

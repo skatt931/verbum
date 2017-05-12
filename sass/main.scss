@@ -7,6 +7,7 @@
 body {
   font-size: 16px;
   min-width: 320px;
+  height:100%;
   position: relative;
   line-height: 1.6;
   font-family: 'Clean1';
@@ -89,5 +90,11 @@ header {
   }
 }
 
+footer {
+  margin-top: 20px;
+  a {
+    margin-left: 10px;
+  }
+}
 //ALWAYS END
 @import 'media';
