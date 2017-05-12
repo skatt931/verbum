@@ -1,9 +1,13 @@
-$(function() {
+﻿$(function() {
 	//variables for underscore template
 	let underText = $('.Undertext').html();
 	let underCard = $('.Undercard').html();
 	let textTemplate = _.template(underText);
 	let cardTemplate = _.template(underCard);
+    let modeLink = $('.mode').find('a');
+    let languageMode = "forin";
+    let lessonLink = $('.lessons').find('a');
+    let lessonNumber = 1;
 
 
 	//function for pick dates from json files
@@ -12,14 +16,13 @@ $(function() {
 		const $cardImage = $('.card-image');
 		const $checkBtn = $('.check-btn');
 		const $helpBtn = $('.help-btn');
+        const $wordNumber = $('.word-number');
 		let $translation = $('.translation-word');
-        let progressNumber = 0;
-        let numberOfWords;
 
 		function showImage() {
 			$cardImage.attr('src', $firstWord.attr('data-url'));
-			console.log($firstWord.attr('data-url'));
-		}
+            console.log($cardImage.attr('src'));
+        }
 		$.getJSON(`lessons/lesson${lessonNumber}.json`, {scriptCharset: "utf-8"})
 			.done(function (data) {
 				let numbersArray = []; //array with numbers of words
@@ -37,20 +40,28 @@ $(function() {
 
 				let k = 0;
                 function addInfoToCard() {
-                    $firstWord.text(data[numbersArray[k]].forin);
-                    $firstWord.attr('data-translation', data[numbersArray[k]].mother);
+                    if( languageMode == "forin") {
+                        $firstWord.text(data[numbersArray[k]].forin);
+                        $firstWord.attr('data-translation', data[numbersArray[k]].mother);
+                    } else if (languageMode == "mother"){
+                        $firstWord.text(data[numbersArray[k]].mother);
+                        $firstWord.attr('data-translation', data[numbersArray[k]].forin);
+                    }
                     $firstWord.attr('data-url', `img/lesson${lessonNumber}/${data[numbersArray[k]].image}.jpg`);
-                    console.log(k);
-                    console.log(numbersArray.length);
+                    $wordNumber.text(`${k}/${numbersArray.length-1}`);
                 }
                 addInfoToCard();
 
                 function checkWord() {
-					if ($translation.val() == $firstWord.attr('data-translation')) {
+					if ($translation.val().toLowerCase() == $firstWord.attr('data-translation')) {
 						k++;
-                        addInfoToCard();
-						showImage();
-						$translation.val("");
+                        showImage();
+                        setTimeout(function(){
+                            addInfoToCard();
+                            $cardImage.attr('src', 'img/питання.jpg');
+                            $translation.val("");
+                        }, 1000);
+
 					}
 				}
 				$checkBtn.on('click', checkWord);
@@ -59,7 +70,10 @@ $(function() {
 						checkWord();
 					}
 				});
-				$helpBtn.on('click', showImage);
+				$helpBtn.on('click', function(){
+                    $firstWord.attr('data-url', `img/lesson${lessonNumber}/${data[numbersArray[k]].image}.jpg`);
+                    $cardImage.attr('src', $firstWord.attr('data-url'));
+                });
 
 			})
 			.fail(function(){
@@ -69,14 +83,13 @@ $(function() {
 	}
 
     //Choose the mode
-	$('.forin-mother').on('click',function(){
-		$('.show-content').html(cardTemplate());
-		pickDataFromServer();
+    modeLink.on('click',function(){
+        languageMode = $(this).attr('data-mode');
+            $('.show-content').html(cardTemplate());
+            pickDataFromServer();
 	});
 
     //Choose the lesson
-    let lessonLink = $('.lessons').find('a');
-    let lessonNumber = 1;
     lessonLink.on('click', function(){
         lessonNumber = $(this).attr('data-number');
         $('.show-content').html(cardTemplate());
