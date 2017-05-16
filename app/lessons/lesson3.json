@@ -1,0 +1,264 @@
+﻿[
+  {
+   "forin" : "asi",
+   "mother" : "близько",
+   "image" : "близько"
+  },
+  {
+    "forin" : "brzo",
+    "mother" : "скоро",
+    "image" : "скоро"
+  },  {
+   "forin" : "bydlet",
+   "mother" : "жити",
+   "image" : "жити"
+  },
+  {
+    "forin" : "celý",
+    "mother" : "цілий",
+    "image" : "цілий"
+  },  {
+   "forin" : "cvičení",
+   "mother" : "вправа",
+   "image" : "вправа"
+  },
+  {
+    "forin" : "často",
+    "mother" : "часто",
+    "image" : "питання"
+  },  {
+   "forin" : "daleko",
+   "mother" : "далеко",
+   "image" : "далеко"
+  },
+  {
+    "forin" : "dlouho",
+    "mother" : "довго",
+    "image" : "довго"
+  },  {
+   "forin" : "domů",
+   "mother" : "додому",
+   "image" : "додому"
+  },
+  {
+    "forin" : "hodina",
+    "mother" : "година",
+    "image" : "година"
+  },  {
+   "forin" : "chvíle",
+   "mother" : "хвилина",
+   "image" : "хвилина"
+  },
+  {
+    "forin" : "jak",
+    "mother" : "як",
+    "image" : "питання"
+  },  {
+   "forin" : "jít",
+   "mother" : "йти",
+   "image" : "йти"
+  },
+  {
+    "forin" : "kam",
+    "mother" : "куди ти йдеш?",
+    "image" : "йти"
+  },  {
+   "forin" : "končit",
+   "mother" : "кінчати",
+   "image" : "кінчати"
+  },
+  {
+    "forin" : "mluvit",
+    "mother" : "говорити",
+    "image" : "говорити"
+  },  {
+   "forin" : "myslet na",
+   "mother" : "думати",
+   "image" : "думати"
+  },
+  {
+    "forin" : "mýt se",
+    "mother" : "митись",
+    "image" : "митись"
+  },  {
+   "forin" : "něco",
+   "mother" : "що-небудь",
+   "image" : "що-небудь"
+  },
+  {
+    "forin" : "nějaký",
+    "mother" : "якийсь",
+    "image" : "якийсь"
+  },  {
+   "forin" : "nerad",
+   "mother" : "мені неохота",
+   "image" : "мені_неохота"
+  },
+  {
+    "forin" : "noc",
+    "mother" : "ніч",
+    "image" : "ніч"
+  },  {
+   "forin" : "noviny",
+   "mother" : "газета",
+   "image" : "газета"
+  },
+  {
+    "forin" : "obědvat",
+    "mother" : "обідати",
+    "image" : "обідати"
+  },  {
+   "forin" : "oblékat se",
+   "mother" : "одягатись",
+   "image" : "одягатись"
+  },
+  {
+    "forin" : "odpovídat na",
+    "mother" : "відповідати",
+    "image" : "відповідати"
+  },  {
+   "forin" : "otázka",
+   "mother" : "запитання",
+   "image" : "запитання"
+  },
+  {
+    "forin" : "pěšky",
+    "mother" : "пішки",
+    "image" : "пішки"
+  },  {
+   "forin" : "pít",
+   "mother" : "пити",
+   "image" : "пити"
+  },
+  {
+    "forin" : "pospíchat",
+    "mother" : "поспішати",
+    "image" : "поспішати"
+  },  {
+   "forin" : "pro",
+   "mother" : "для кого",
+   "image" : "питання"
+  },
+  {
+    "forin" : "program",
+    "mother" : "програма",
+    "image" : "програма"
+  },  {
+   "forin" : "proč",
+   "mother" : "чому",
+   "image" : "чому"
+  },
+  {
+    "forin" : "prohlížet si",
+    "mother" : "переглядати",
+    "image" : "переглядати"
+  },  {
+   "forin" : "procházka",
+   "mother" : "прогулянка",
+   "image" : "прогулянка"
+  },
+  {
+    "forin" : "protože",
+    "mother" : "тому що",
+    "image" : "питання"
+  },  {
+   "forin" : "přestávka",
+   "mother" : "перерва",
+   "image" : "перерва"
+  },
+  {
+    "forin" : "psát",
+    "mother" : "писати",
+    "image" : "писати"
+  },  {
+   "forin" : "ptát se na",
+   "mother" : "питати",
+   "image" : "питати"
+  },
+  {
+    "forin" : "radost",
+    "mother" : "радість",
+    "image" : "радість"
+  },  {
+   "forin" : "ráno",
+   "mother" : "ранком",
+   "image" : "ранком"
+  },
+  {
+    "forin" : "sedět",
+    "mother" : "сидіти",
+    "image" : "сидіти"
+  },  {
+   "forin" : "sem",
+   "mother" : "сюди",
+   "image" : "сюди"
+  },
+  {
+    "forin" : "snídat",
+    "mother" : "снідати",
+    "image" : "снідати"
+  },  {
+   "forin" : "spát",
+   "mother" : "спати",
+   "image" : "спати"
+  },
+  {
+    "forin" : "spolu",
+    "mother" : "разом",
+    "image" : "разом"
+  },  {
+   "forin" : "pořád",
+   "mother" : "завжди",
+   "image" : "питання"
+  },
+  {
+    "forin" : "telefonovat",
+    "mother" : "телефонувати",
+    "image" : "телефонувати"
+  },  {
+   "forin" : "těžký",
+   "mother" : "важкий",
+   "image" : "важкий"
+  },
+  {
+    "forin" : "unavený",
+    "mother" : "втомлений",
+    "image" : "втомлений"
+  },  {
+   "forin" : "večeřet",
+   "mother" : "вечеряти",
+   "image" : "вечеряти"
+  },
+  {
+    "forin" : "začínat",
+    "mother" : "починати",
+    "image" : "починаю"
+  },  {
+   "forin" : "za chvíli",
+   "mother" : "за хвилину",
+   "image" : "за_хвилину"
+  },
+  {
+    "forin" : "zdravit",
+    "mother" : "вітатися",
+    "image" : "вітатися"
+  },  {
+   "forin" : "že",
+   "mother" : "що",
+   "image" : "питання"
+  },
+  {
+    "forin" : "budík",
+    "mother" : "будильник",
+    "image" : "будильник"
+  },  {
+   "forin" : "koupelna",
+   "mother" : "ванна",
+   "image" : "ванна"
+  },
+  {
+    "forin" : "čistit si",
+    "mother" : "чистити",
+    "image" : "чистити"
+  }
+]
